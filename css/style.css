@@ -34,7 +34,6 @@
   border-radius: 50%;
 }
 
-/* NavBar */
 nav ul li {
   display: inline-block;
   align-items: center;
@@ -72,8 +71,6 @@ nav ul li:hover a:hover {
   width: 450px;
 }
 
-/* Fin NavBar */
-/* Footer */
 footer {
   background-color: rgba(1, 122, 126, 0.6862745098);
   border-radius: 30px 30px 0 0;
@@ -121,16 +118,10 @@ footer {
   flex-wrap: wrap;
 }
 
-/* Fin Footer */
-/* Body */
 .bienvenido h1 {
   text-align: center;
 }
 
-/* Fin Body */
-/* Formularios */
 .formulario {
   margin: 2% 15% 5% 15%;
-}
-
-/* Fin Formularios *//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

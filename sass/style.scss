@@ -3,22 +3,5 @@
 @import "global";
 @import "nav";
 @import "footer";
-
-
-/* Body */
-
-.bienvenido {
-    h1 {
-        text-align: center;
-    }
-}
-
-/* Fin Body */
-
-/* Formularios */
-
-.formulario {
-    margin: 2% 15% 5% 15%;
-}
-
-/* Fin Formularios */
+@import "titulos";
+@import "formulario";
