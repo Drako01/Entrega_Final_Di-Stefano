@@ -1,0 +1,50 @@
+/* NavBar */
+
+nav {
+    ul {
+        li {
+            display: inline-block;
+            align-items: center;
+            width: 180px;
+            height: 40px;
+            padding: 5px;
+            background-color: #ffffff;
+            text-align: center;
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                font-size: 20px;
+                letter-spacing: 2px;
+                color: $bgfooter;
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+nav {
+    ul {
+        li:hover {
+            background-color: $bgfooter;
+            border-radius: 8px;
+
+            a:hover {
+                color: #faf4f4;
+            }
+        }
+    }
+}
+
+.marca,
+.nav {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+
+    img {
+        width: 450px;
+    }
+}
+
+/* Fin NavBar */

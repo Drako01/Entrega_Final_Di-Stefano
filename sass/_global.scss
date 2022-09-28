@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.boton {
+    height: 40px;
+    width: 100%;
+    max-width: 320px;
+    background-color: $bgfooter;
+    color: $fuenteHover;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px #958b8b;
+    margin: 5% 0;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #20966f;
+    box-shadow: none;
+}
+
+.line {
+    width: 100%;
+    margin: 0 auto;
+    height: 5px;
+    background: #004848;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
