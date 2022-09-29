@@ -1,0 +1,33 @@
+p {
+    @if $colores ==normales {
+        color: black;
+    }
+
+    @else if $colores ==anormales {
+        color: $bgfooter;
+    }
+
+    @else {
+        color: dimgrey;
+    }
+}
+
+footer {
+    @if $footer ==normales {
+        background-color: #017a7eaf;
+    }
+
+    @else if $footer ==anormales {
+        background-color: #1e46d6af;
+    }
+
+    @else {
+        background-color: #38b60eaf;
+    }
+}
+
+@mixin foto ($width, $height){
+    width: $width;
+    height: $height;
+}
+

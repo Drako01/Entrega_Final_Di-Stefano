@@ -34,6 +34,41 @@
   border-radius: 50%;
 }
 
+.margenes, .box_centrado {
+  margin: 50px 100px;
+}
+
+.box_center, .box_centrado {
+  display: flex;
+  justify-content: center;
+}
+
+.imagenes__interactivas, .galeria-grid .padre img {
+  width: 400px;
+  height: 300px;
+  margin-top: 15px;
+  overflow: hidden;
+  border-radius: 16px;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px rgb(123, 123, 123);
+}
+
+._paralax_ {
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+p {
+  color: black;
+}
+
+footer {
+  background-color: rgba(1, 122, 126, 0.6862745098);
+}
+
 nav ul li {
   display: inline-block;
   align-items: center;
@@ -75,6 +110,7 @@ footer {
   background-color: rgba(1, 122, 126, 0.6862745098);
   border-radius: 30px 30px 0 0;
   box-shadow: 3px 0 8px #004848;
+  margin-bottom: 0;
 }
 
 .contactame {
@@ -120,8 +156,53 @@ footer {
 
 .bienvenido h1 {
   text-align: center;
+  color: rgba(1, 122, 126, 0.6862745098);
 }
 
 .formulario {
   margin: 2% 15% 5% 15%;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+.galeria-grid {
+  grid-area: galeria;
+}
+.galeria-grid .padre img {
+  width: 600px;
+  height: 420px;
+}
+.galeria-grid .padre img:hover {
+  filter: grayscale(1);
+  box-shadow: none;
+}
+
+footer {
+  grid-area: footer;
+}
+
+body {
+  display: grid;
+  gap: 20px;
+  grid-template-areas: "header" "nav" "galeria" "footer";
+}
+
+.padre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 10px;
+  justify-items: center;
+  margin-bottom: 50px;
+}
+
+.disney_page {
+  height: 80vh;
+  background-image: linear-gradient(to top, rgba(226, 226, 226, 0.568627451) 0%, rgba(135, 135, 135, 0.0509803922) 100%), url(../img/disney03.png);
 }/*# sourceMappingURL=style.css.map */

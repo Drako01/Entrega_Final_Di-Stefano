@@ -32,3 +32,35 @@
     margin-top: 30px;
     border-radius: 50%;
 }
+
+.margenes{
+    margin: 50px 100px;
+}
+
+.box_center{
+    display: flex;
+    justify-content: center;
+}
+
+.box_centrado{
+    @extend .margenes;
+    @extend .box_center;    
+}
+
+.imagenes__interactivas {
+    width: 400px;
+    height: 300px;
+    margin-top: 15px;
+    overflow: hidden;
+    border-radius: 16px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px rgb(123, 123, 123);
+}
+
+._paralax_ {
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}

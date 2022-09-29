@@ -1,0 +1,44 @@
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+.galeria-grid {
+    grid-area: galeria;
+    .padre {
+        img {            
+            @extend .imagenes__interactivas;
+            @include foto(600px, 420px);
+        }
+        img:hover{
+            filter:grayscale(1);
+            box-shadow: none;
+        }
+    }
+}
+
+footer {
+    grid-area: footer;
+}
+
+body {
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+        "header"
+        "nav"
+        "galeria"
+        "footer";
+}
+
+.padre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    justify-items: center;
+    margin-bottom: 50px;
+}
