@@ -61,6 +61,14 @@
   background-position: center;
 }
 
+.a, nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: rgba(1, 122, 126, 0.6862745098);
+  font-weight: bolder;
+}
+
 p {
   color: black;
 }
@@ -79,14 +87,6 @@ nav ul li {
   text-align: center;
   list-style: none;
 }
-nav ul li a {
-  text-decoration: none;
-  font-size: 20px;
-  letter-spacing: 2px;
-  color: rgba(1, 122, 126, 0.6862745098);
-  font-weight: bolder;
-}
-
 nav ul li:hover {
   background-color: rgba(1, 122, 126, 0.6862745098);
   border-radius: 8px;
@@ -203,6 +203,5 @@ body {
 }
 
 .disney_page {
-  height: 80vh;
   background-image: linear-gradient(to top, rgba(226, 226, 226, 0.568627451) 0%, rgba(135, 135, 135, 0.0509803922) 100%), url(../img/disney03.png);
 }/*# sourceMappingURL=style.css.map */
