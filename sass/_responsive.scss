@@ -11,23 +11,26 @@
             }
         }
     }
-    
-    .wrapper{
+
+    .wrapper {
         flex-wrap: wrap;
     }
-    .ofertas{    
-        .email{            
-            .item_vuelos{
-                input{
+
+    .ofertas {
+        .email {
+            .item_vuelos {
+                input {
                     width: 480px;
                 }
-                button{
+
+                button {
                     width: 120px;
                     font-size: 12px;
                 }
             }
-        }        
+        }
     }
+
     .slider {
         max-width: 800px;
     }
@@ -54,13 +57,16 @@
 
         grid-column: -2/-1;
         grid-row: 1/2;
+
+        .nav__item {
+
+            .nav__link {
+                font-size: 1.2rem;
+                letter-spacing: none;
+            }
+        }
     }
 
-    .nav__link {
-        font-size: 1rem;
-        letter-spacing: none;
-    }
-    
 }
 
 @media (max-width:768px) {
@@ -76,35 +82,59 @@
             }
         }
     }
+
     .slider {
         max-width: 768px;
     }
 
-    .ofertas{
-    
-        .email{
+    .ofertas {
+
+        .email {
             flex-direction: column;
             align-items: center;
             margin: auto;
-            .item_vuelos{
-                input{
+
+            .item_vuelos {
+                input {
                     width: 300px;
                 }
             }
         }
-        i{
+
+        i {
             font-size: 36px;
             color: $bgfooter;
             margin: auto;
         }
+
+
+
     }
 
-    .wrapper{    
-        
-        .textos_finales{
-            h5{
+
+    .nav__links {
+
+        .nav__item {
+            .nav__link {
+                color: #d1d1d1;
+                font-size: 1.5rem;
+            }
+
+            .nav__link:hover {
+                color: #f6c487;
+                text-shadow: 1px 1px 1px #000;
+            }
+        }
+    }
+
+
+    .wrapper {
+
+        .textos_finales {
+            h5 {
                 font-size: 15px;
             }
+
             font-size: 60%;
         }
     }

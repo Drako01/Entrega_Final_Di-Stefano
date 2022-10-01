@@ -211,9 +211,9 @@ header {
   list-style: none;
 }
 .nav__links .nav__item .nav__link {
-  color: rgb(62, 62, 62);
+  color: #3e3e3e;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   letter-spacing: 2px;
   font-weight: bold;
 }
@@ -531,8 +531,8 @@ footer {
     grid-column: -2/-1;
     grid-row: 1/2;
   }
-  .nav__link {
-    font-size: 1rem;
+  .nav__links .nav__item .nav__link {
+    font-size: 1.2rem;
     letter-spacing: none;
   }
 }
@@ -563,6 +563,14 @@ footer {
     font-size: 36px;
     color: #01717e;
     margin: auto;
+  }
+  .nav__links .nav__item .nav__link {
+    color: #d1d1d1;
+    font-size: 1.5rem;
+  }
+  .nav__links .nav__item .nav__link:hover {
+    color: #f6c487;
+    text-shadow: 1px 1px 1px #000;
   }
   .wrapper .textos_finales {
     font-size: 60%;
