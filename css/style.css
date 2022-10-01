@@ -344,8 +344,15 @@ footer {
 
 .ofertas .email {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  margin: 30px;
+}
+.ofertas .email .item_vuelos {
+  margin: 10px;
+}
+.ofertas .email .item_vuelos input {
+  width: 600px;
 }
 .ofertas i {
   font-size: 48px;
@@ -495,6 +502,13 @@ footer {
   .wrapper {
     flex-wrap: wrap;
   }
+  .ofertas .email .item_vuelos input {
+    width: 480px;
+  }
+  .ofertas .email .item_vuelos button {
+    width: 120px;
+    font-size: 12px;
+  }
 }
 @media (min-width: 768px) {
   .nav {
@@ -542,8 +556,11 @@ footer {
     align-items: center;
     margin: auto;
   }
+  .ofertas .email .item_vuelos input {
+    width: 300px;
+  }
   .ofertas i {
-    font-size: 48px;
+    font-size: 36px;
     color: #01717e;
     margin: auto;
   }

@@ -50,11 +50,18 @@
 }
 
 .ofertas {
-
+    
     .email {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
+        margin: 30px;
+        .item_vuelos{
+            margin: 10px;
+            input{
+                width: 600px;
+            }
+        }
     }
 
     i {
