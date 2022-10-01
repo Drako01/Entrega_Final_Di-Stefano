@@ -291,6 +291,9 @@ footer {
   border-radius: 20px;
   padding: 20px;
 }
+.formulario .text-label label {
+  font-size: 12px;
+}
 
 .index_page {
   background-image: linear-gradient(to top, rgba(226, 226, 226, 0.568627451) 0%, rgba(135, 135, 135, 0.0509803922) 100%), url(../img/orlando02.jpg);

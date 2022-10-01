@@ -3,4 +3,9 @@
     border: 1px solid $bgfooter;
     border-radius: 20px;
     padding: 20px;
+    .text-label {
+        label{
+        font-size: 12px;
+        }
+    }
 }
