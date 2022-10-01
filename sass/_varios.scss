@@ -45,8 +45,24 @@
     padding: 5%;
 }
 
-.bienvenido__box, .vuelos_box{
+.bienvenido__box{
     padding: 1% 5%;
+}
+
+.vuelos_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2% 15%;
+    .table{
+        tbody{
+            tr{
+                th, td{
+                    font-size: 14px;
+                }
+            }
+        }        
+    }
 }
 
 .ofertas {

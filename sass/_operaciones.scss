@@ -14,7 +14,7 @@ p {
 
 footer {
     @if $footer ==normales {
-        background-color: #017a7eaf;
+        background-color: #017a7e;
     }
 
     @else if $footer ==anormales {
@@ -26,8 +26,5 @@ footer {
     }
 }
 
-@mixin foto ($width, $height){
-    width: $width;
-    height: $height;
-}
+
 

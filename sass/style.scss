@@ -1,7 +1,7 @@
 @import "globalVar";
 @import "fonts";
 @import "global";
-@import "operaciones";
+@import "mixin";
 @import "grids";
 @import "nav";
 @import "footer";
@@ -10,4 +10,4 @@
 @import "varios";
 @import "slider";
 @import "responsive";
-
+@import "operaciones";

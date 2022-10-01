@@ -90,14 +90,6 @@
   font-weight: bolder;
 }
 
-p {
-  color: black;
-}
-
-footer {
-  background-color: rgba(1, 122, 126, 0.6862745098);
-}
-
 header {
   grid-area: header;
 }
@@ -341,8 +333,18 @@ footer {
   padding: 5%;
 }
 
-.bienvenido__box, .vuelos_box {
+.bienvenido__box {
   padding: 1% 5%;
+}
+
+.vuelos_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2% 15%;
+}
+.vuelos_box .table tbody tr th, .vuelos_box .table tbody tr td {
+  font-size: 14px;
 }
 
 .ofertas .email {
@@ -635,4 +637,11 @@ footer {
   .slide img {
     height: 200px;
   }
+}
+p {
+  color: black;
+}
+
+footer {
+  background-color: #017a7e;
 }/*# sourceMappingURL=style.css.map */
