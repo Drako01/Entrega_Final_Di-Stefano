@@ -9,30 +9,100 @@
     <link rel="shortcut icon" href="../img/logo.webp" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">    
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <figure class="marca">
-                <img src="../img/marca.png" alt="Viajemos.com">
+        <nav class="nav container" id="nav">
+            <figure>
+                <img src="../img/marca.png" alt="Viajemos.com" class="nav__img">
             </figure>
-            <ul class="nav">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="vuelos.html">Vuelos</a></li>
-                <li><a href="paquetes.html">Paquetes</a></li>
-                <li><a href="disney.html">Disney</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+            <ul class="nav__links">
+
+                <li class="nav__item"><a href="../index.html" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="vuelos.html" class="nav__link">Vuelos</a></li>
+                <li class="nav__item"><a href="paquetes.html" class="nav__link">Paquetes</a></li>
+                <li class="nav__item"><a href="disney.html" class="nav__link">Disney</a></li>
+                <li class="nav__item"><a href="contacto.html" class="nav__link">Contacto</a></li>
+
             </ul>
+
+            <a href="#nav" class="nav__hamburguer">
+                <img src="../img/menu.svg" class="nav__icon">
+            </a>
+
+            <a href="#" class="nav__close">
+                <img src="../img/close.svg" class="nav__icon">
+            </a>
+
         </nav>
     </header>
-    <div class="line"></div>
+    
     <main>
+        <section class="bienvenido">
+            <h3>Paquetes turísticos baratos ¡La mejor opcion para tus vacaciones!</h3>
+            <article class="bienvenido">
+                <p>Los paquetes turísticos 2020 en Argentina son tu puerta de entrada para vivir las mejores vacaciones.
+                    En
+                    <b>Viajemos.com</b> tenemos la variedad más grande de paquetes de viaje para vos, combinando los
+                    vuelos más
+                    baratos, la mejor selección de hoteles y todo lo que necesitas para tener una experiencia completa.
+                    ¿Qué
+                    estás esperando para hacer realidad el viaje de tus sueños con estos paquetes baratos? Al comprar
+                    tus
+                    paquetes turísticos podés conseguir muy buenos descuentos, porque al sumar un hotel o auto vas a
+                    obtener
+                    un descuento significativo en su valor. ¡Comprar tus viajes en paquetes siempre te va a resultar más
+                    barato! También podés sumar productos adicionales a tu paquete turístico, además de vuelo, hotel y
+                    alquiler de autos, como traslados desde el aeropuerto y actividades para hacer en tu destino. Y en
+                    cada
+                    instancia de tu compra podés ajustar tu paquete a tus necesidades. En <b>Viajemos.com</b> podés
+                    encontrar paquetes
+                    en oferta a un gran abanico de destinos de todo el mundo. Tanto si preferís pasar tus vacaciones en
+                    la
+                    playa con un paquete all inclusive, en la montaña o en las ciudades más cosmopolitas, acá tenemos lo
+                    que
+                    estás buscando. Descubrí el lugar de tus futuras vacaciones con nuestros paquetes de viajes y
+                    aprovechá
+                    las mejores ofertas. ¡Hacé ya mismo tus reservas de paquetes turísticos en Argentina a los precios
+                    más
+                    económicos y pagalos en cómodas cuotas!!
+                </p>
+            </article>
+        </section>
 
-        
-
+        <section class="sliders">            
+            <article class="slider">
+                <div class="slide-track">
+                    <div class="slide">
+                        <img src="../img/disney01.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="../img/disney02.jpeg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="../img/disney03.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="../img/disney04.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="../img/apart01.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="../img/apart_hotel.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="../img/hotel01.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="../img/hotel02.jpg" alt="">
+                    </div>
+                </div>
+            </article>            
+        </section>
     </main>
     <footer>
         <div class="footer contactame">

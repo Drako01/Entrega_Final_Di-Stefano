@@ -1,6 +1,14 @@
 .bienvenido {
-    h1 {
+    margin: 2% 0;
+    h1, h2, h3 {
         text-align: center;
         color: $bgfooter;
+    }
+    h3{
+        margin-top: 30px;
+    }
+    p{
+        text-align: left;
+        padding: 3%;
     }
 }

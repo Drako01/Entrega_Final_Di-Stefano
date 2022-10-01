@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .boton {
@@ -18,6 +18,19 @@
     cursor: pointer;
 }
 
+.boton_01{
+    height: 40px;
+    width: 200px;
+    background-color: $bgfooter;
+    color: $fuenteHover;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px #958b8b;   
+    cursor: pointer;
+    margin: 0 2%;
+}
+
 .boton:hover {
     background-color: #20966f;
     box-shadow: none;
@@ -31,6 +44,13 @@
     margin-bottom: 30px;
     margin-top: 30px;
     border-radius: 50%;
+}
+
+.line2 {
+    width: 90%;
+    margin: 10px auto;
+    height: 1px;
+    background: #004848;
 }
 
 .margenes {

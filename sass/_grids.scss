@@ -6,15 +6,21 @@ nav {
     grid-area: nav;
 }
 
+main{
+    grid-area: main;
+}
+
 .galeria-grid {
     grid-area: galeria;
+
     .padre {
-        img {            
+        img {
             @extend .imagenes__interactivas;
-            @include foto(600px, 420px);
+            @include foto(520px, 360px);
         }
-        img:hover{
-            filter:grayscale(1);
+
+        img:hover {
+            filter: grayscale(1);
             box-shadow: none;
         }
     }
@@ -30,8 +36,8 @@ body {
     grid-template-areas:
         "header"
         "nav"
-        "galeria"
-        "footer";
+        "main"
+        "footer";    
 }
 
 .padre {
@@ -42,3 +48,4 @@ body {
     justify-items: center;
     margin-bottom: 50px;
 }
+

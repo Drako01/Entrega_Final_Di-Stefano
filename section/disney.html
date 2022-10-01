@@ -15,36 +15,262 @@
 
 <body>
     <header>
-        <nav>
-            <figure class="marca">
-                <img src="../img/marca.png" alt="Viajemos.com">
+        <nav class="nav container" id="nav">
+            <figure>
+                <img src="../img/marca.png" alt="Viajemos.com" class="nav__img">
             </figure>
-            <ul class="nav">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="vuelos.html">Vuelos</a></li>
-                <li><a href="paquetes.html">Paquetes</a></li>
-                <li><a href="disney.html">Disney</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+            <ul class="nav__links">
+
+                <li class="nav__item"><a href="../index.html" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="vuelos.html" class="nav__link">Vuelos</a></li>
+                <li class="nav__item"><a href="paquetes.html" class="nav__link">Paquetes</a></li>
+                <li class="nav__item"><a href="disney.html" class="nav__link">Disney</a></li>
+                <li class="nav__item"><a href="contacto.html" class="nav__link">Contacto</a></li>
+
             </ul>
+
+            <a href="#nav" class="nav__hamburguer">
+                <img src="../img/menu.svg" class="nav__icon">
+            </a>
+
+            <a href="#" class="nav__close">
+                <img src="../img/close.svg" class="nav__icon">
+            </a>
+
         </nav>
     </header>
-    <div class="line"></div>
+    
     <main>
         <section class="galeria-grid">
             <section class="padre">
                 <div><img src="../img/disney01.jpg" alt=""></div>
-                    <div><img src="../img/disney02.jpeg" alt=""></div>
-                    <div><img src="../img/disney03.png" alt=""></div>
-                    <div><img src="../img/disney04.jpg" alt=""></div>
-                    <div><img src="../img/orlando.jpg" alt=""></div>
-                    <div><img src="../img/minnie.jpg" alt=""></div>
+                <div><img src="../img/disney02.jpeg" alt=""></div>
+                <div><img src="../img/disney03.png" alt=""></div>
+                <div><img src="../img/disney04.jpg" alt=""></div>
+                <div><img src="../img/orlando.jpg" alt=""></div>
+                <div><img src="../img/minnie.jpg" alt=""></div>
             </section>
         </section>
+
         <div class="_paralax_ disney_page"></div>
-        <section class="box_centrado">
+
+        <section class="bienvenido">
+            <article class="bienvenido">
+                <h3>Elegí tu entrada</h3>
+                <div class="bienvenido__box">
+                    <h6>1. Revisá la disponibillidad de los parques para tus fechas de viaje en este calendario informativo.
+                    </h6>
+                    <h6>Ver calendario de disponibilidad</h6>
+                    <h6>2. Indicá tu día de ingreso, así podrás ver el precio final de tu entrada.</h6>
+                </div>                
+            </article>
+
+            <article class="center">
+                <div class="col-md-2">
+                    <input type="date" class="form-control">
+                </div>
+                <div class="col-md-2">
+                    <h6>Adultos<span> 10 años o más</span> </h6>
+                </div>
+                <div class="col-md-2">
+                    <input type="number" value="2" class="form-control">
+                </div>
+                <div class="col-md-2">
+                    <h6>Menores<span> 3 a 9 años</span></h6>
+                </div>
+                <div class="col-md-2">
+                    <input type="number" value="2" class="form-control">
+                </div>
+                <div class="col-md-2">
+                    <p><span>Entrada gratuita</span> para menores de 3 años (al momento de entrar al parque).</p>
+                </div>
+                <div class="col-md-2">
+                    <p><span>Cancelación gratuita</span> hasta 90 días después de tu compra.</p>
+                </div>
+            </article>
+            <h3>Elige la entrada que mejor se adapte a tu estadía</h3>
+        </section>
+
+        <section class="row_entradas_disney">
+            <article class="wrapper_disney_entradas_row">
+                <div class="entrada_color">
+                    <h6>10% de descuento</h6>
+                </div>
+                <div>
+                    <h5>Entrada de 3 días - 2022</h5>
+                </div>
+                <div>
+                    <p>A partir de la fecha que elijas tu entrada, tenés 5 días para usarla por completo.</p>
+                </div>
+                <div>
+                    <p><span>Ver más detalles</span></p>
+                </div>
+                <div class="line2"></div>
+                <section class="row_entradas">
+                    <div class="box_1">
+                        <p>Precio por adulto desde</p>
+                        <h3><span>$ </span>57.186</h3>
+                        <h6>10 años o más</h6>
+                    </div>
+                    <div class="box_1">
+                        <p>Precio por menor desde</p>
+                        <h3><span>$ </span>53.752</h3>
+                        <h6>3 a 9 años</h6>
+                    </div>
+                </section>
+                <div class="line2"></div>
+                <div>
+                    <p>El Impuesto PAIS y Percepción RG 4815 ya están incluidos en el precio final.</p>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-success boton" type="submit">Elegir esta entrada</button>
+                </div>
+            </article>
+            <article class="wrapper_disney_entradas_row">
+                <div class="entrada_color">
+                    <h6>15% de descuento</h6>
+                </div>
+                <div>
+                    <h5>Entrada de 4 días - 2022</h5>
+                </div>
+                <div>
+                    <p>A partir de la fecha que elijas tu entrada, tenés 5 días para usarla por completo.</p>
+                </div>
+                <div>
+                    <p><span>Ver más detalles</span></p>
+                </div>
+                <div class="line2"></div>
+                <section class="row_entradas">
+                    <div class="box_1">
+                        <p>Precio por adulto desde</p>
+                        <h3><span>$ </span>66.991</h3>
+                        <h6>10 años o más</h6>
+                    </div>
+                    <div class="box_1">
+                        <p>Precio por menor desde</p>
+                        <h3><span>$ </span>62.924</h3>
+                        <h6>3 a 9 años</h6>
+                    </div>
+                </section>
+                <div class="line2"></div>
+                <div>
+                    <p>El Impuesto PAIS y Percepción RG 4815 ya están incluidos en el precio final.</p>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-success boton" type="submit">Elegir esta entrada</button>
+                </div>
+            </article>
+            <article class="wrapper_disney_entradas_row">
+                <div class="entrada_color">
+                    <h6>15% de descuento</h6>
+                </div>
+                <div>
+                    <h5>Entrada de 5 días - 2022</h5>
+                </div>
+                <div>
+                    <p>A partir de la fecha que elijas tu entrada, tenés 5 días para usarla por completo.</p>
+                </div>
+                <div>
+                    <p><span>Ver más detalles</span></p>
+                </div>
+                <div class="line2"></div>
+                <section class="row_entradas">
+                    <div class="box_1">
+                        <p>Precio por adulto desde</p>
+                        <h3><span>$ </span>72.089</h3>
+                        <h6>10 años o más</h6>
+                    </div>
+                    <div class="box_1">
+                        <p>Precio por menor desde</p>
+                        <h3><span>$ </span>77.763</h3>
+                        <h6>3 a 9 años</h6>
+                    </div>
+                </section>
+                <div class="line2"></div>
+                <div>
+                    <p>El Impuesto PAIS y Percepción RG 4815 ya están incluidos en el precio final.</p>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-success boton" type="submit">Elegir esta entrada</button>
+                </div>
+            </article>
+            <article class="wrapper_disney_entradas_row">
+                <div class="entrada_color">
+                    <h6>15% de descuento</h6>
+                </div>
+                <div>
+                    <h5>Entrada de 6 días - 2022</h5>
+                </div>
+                <div>
+                    <p>A partir de la fecha que elijas tu entrada, tenés 5 días para usarla por completo.</p>
+                </div>
+                <div>
+                    <p><span>Ver más detalles</span></p>
+                </div>
+                <div class="line2"></div>
+                <section class="row_entradas">
+                    <div class="box_1">
+                        <p>Precio por adulto desde</p>
+                        <h3><span>$ </span>85.155</h3>
+                        <h6>10 años o más</h6>
+                    </div>
+                    <div class="box_1">
+                        <p>Precio por menor desde</p>
+                        <h3><span>$ </span>80.661</h3>
+                        <h6>3 a 9 años</h6>
+                    </div>
+                </section>
+                <div class="line2"></div>
+                <div>
+                    <p>El Impuesto PAIS y Percepción RG 4815 ya están incluidos en el precio final.</p>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-success boton" type="submit">Elegir esta entrada</button>
+                </div>
+            </article>
+            <article class="wrapper_disney_entradas_row">
+                <div class="entrada_color">
+                    <h6>10% de descuento</h6>
+                </div>
+                <div>
+                    <h5>Entrada de 7 días - 2022</h5>
+                </div>
+                <div>
+                    <p>A partir de la fecha que elijas tu entrada, tenés 5 días para usarla por completo.</p>
+                </div>
+                <div>
+                    <p><span>Ver más detalles</span></p>
+                </div>
+                <div class="line2"></div>
+                <section class="row_entradas">
+                    <div class="box_1">
+                        <p>Precio por adulto desde</p>
+                        <h3><span>$ </span>98.265</h3>
+                        <h6>10 años o más</h6>
+                    </div>
+                    <div class="box_1">
+                        <p>Precio por menor desde</p>
+                        <h3><span>$ </span>93.607</h3>
+                        <h6>3 a 9 años</h6>
+                    </div>
+                </section>
+                <div class="line2"></div>
+                <div>
+                    <p>El Impuesto PAIS y Percepción RG 4815 ya están incluidos en el precio final.</p>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-success boton" type="submit">Elegir esta entrada</button>
+                </div>
+            </article>
+        </section>
+
+        <div class="_paralax_ disney_page_01"></div>
+
+        <section class="bienvenido">
             <h3>¡Viví la magia de Disney!</h3>
         </section>
-        <section class="box_centrado">            
+
+        <section class="bienvenido">
             <p>Walt Disney World Resort lleva 50 años transformando cuentos de hadas en realidad, y te invita a
                 vivir experiencias llenas de magia y diversión. Los clásicos personajes te darán la bienvenida
                 con

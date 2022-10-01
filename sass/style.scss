@@ -2,14 +2,12 @@
 @import "fonts";
 @import "global";
 @import "operaciones";
+@import "grids";
 @import "nav";
 @import "footer";
 @import "titulos";
 @import "formulario";
-@import "grids";
+@import "varios";
+@import "slider";
+@import "responsive";
 
-
-
-.disney_page {
-    background-image: linear-gradient(to top, #e2e2e291 0%, #8787870d 100%), url(../img/disney03.png);
-}

@@ -1,0 +1,161 @@
+@media (max-width:1080px) {
+    .galeria-grid {
+        grid-area: galeria;
+
+        .padre {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 3fr;
+
+            img {
+                @include foto(380px, 290px);
+            }
+        }
+    }
+    
+    .wrapper{
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:768px) {
+    .nav {
+        --state-hamburguer: scale(0);
+        --state-menu: translate(0);
+    }
+
+    .nav:target {
+        --state-close: scale(0);
+    }
+
+    .nav__links {
+        padding: 0;
+        background-color: unset;
+        position: unset;
+        gap: 1.5em;
+        grid-auto-flow: column;
+
+        transform: unset;
+
+        grid-column: -2/-1;
+        grid-row: 1/2;
+    }
+
+    .nav__link {
+        font-size: 1rem;
+        letter-spacing: none;
+    }
+    .slider {
+        max-width: 768px;
+    }
+}
+
+@media (max-width:768px) {
+    .galeria-grid {
+        grid-area: galeria;
+
+        .padre {
+            grid-template-columns: 1fr;
+            grid-template-rows: 6fr;
+
+            img {
+                @include foto(340px, 240px);
+            }
+        }
+    }
+    .slider {
+        max-width: 768px;
+    }
+
+    .ofertas{
+    
+        .email{
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+        }
+        i{
+            font-size: 48px;
+            color: $bgfooter;
+            margin: auto;
+        }
+    }
+
+    .wrapper{    
+        
+        .textos_finales{
+            h5{
+                font-size: 15px;
+            }
+            font-size: 60%;
+        }
+    }
+}
+
+@media (max-width:576px) {
+
+    .titulo-final p {
+        font-size: 12px;
+    }
+
+    .contactame_iconos_social {
+        font-size: 36px;
+    }
+
+    .contactame_listado {
+        font-size: 18px;
+    }
+
+    .formulario {
+        margin: 3% 5% 5% 5%;
+    }
+
+    .boton {
+        max-width: 100%;
+    }
+
+    .sliders {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    @-webkit-keyframes scroll {
+        0% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+
+        100% {
+            -webkit-transform: translateX(calc(-200px * 7));
+            transform: translateX(calc(-200px * 7));
+        }
+    }
+
+    @keyframes scroll {
+        0% {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+        }
+
+        100% {
+            -webkit-transform: translateX(calc(-200px * 7));
+            transform: translateX(calc(-200px * 7));
+        }
+    }
+
+    .slider {
+        height: 200px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        max-width: 480px;
+    }
+
+    .slider .slide {
+        height: 50px;
+    }
+
+    .slide img {
+        height: 200px;
+    }
+
+}
