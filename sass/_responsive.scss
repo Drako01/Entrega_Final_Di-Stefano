@@ -28,6 +28,9 @@
             }
         }        
     }
+    .slider {
+        max-width: 800px;
+    }
 }
 
 @media (min-width:768px) {
@@ -57,9 +60,7 @@
         font-size: 1rem;
         letter-spacing: none;
     }
-    .slider {
-        max-width: 768px;
-    }
+    
 }
 
 @media (max-width:768px) {

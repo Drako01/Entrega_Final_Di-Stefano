@@ -509,6 +509,9 @@ footer {
     width: 120px;
     font-size: 12px;
   }
+  .slider {
+    max-width: 800px;
+  }
 }
 @media (min-width: 768px) {
   .nav {
@@ -531,9 +534,6 @@ footer {
   .nav__link {
     font-size: 1rem;
     letter-spacing: none;
-  }
-  .slider {
-    max-width: 768px;
   }
 }
 @media (max-width: 768px) {
