@@ -14,7 +14,7 @@ Estan incluidos los siguientes temas vistos en Clase:
 - Mapeo del Sitio
 
 
-URL del Sitio: http://127.0.0.1:5500/index.html
+URL del Sitio: http://c2031659.ferozo.com/
 
 
 # Alejandro Daniel Di Stefano
