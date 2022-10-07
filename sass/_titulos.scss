@@ -1,13 +1,18 @@
 .bienvenido {
     margin: 2% 0;
-    h1, h2, h3 {
+
+    h1,
+    h2,
+    h3 {
         text-align: center;
         color: $bgfooter;
     }
-    h3{
+
+    h3 {
         margin-top: 30px;
     }
-    p{
+
+    p {
         text-align: left;
         padding: 3%;
     }

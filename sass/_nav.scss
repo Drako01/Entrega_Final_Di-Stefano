@@ -67,8 +67,10 @@ header {
 
     transform: var(--state-menu);
     transition: .3s transform;
+
     .nav__item {
         list-style: none;
+
         .nav__link {
             color: #3e3e3e;
             text-decoration: none;
@@ -76,13 +78,10 @@ header {
             letter-spacing: 2px;
             font-weight: bold;
         }
-        
+
         .nav__link:hover {
             color: $fuenteHover;
             text-shadow: 1px 1px 1px #000;
         }
     }
 }
-
-
-

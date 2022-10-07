@@ -6,7 +6,7 @@ nav {
     grid-area: nav;
 }
 
-main{
+main {
     grid-area: main;
 }
 
@@ -37,7 +37,7 @@ body {
         "header"
         "nav"
         "main"
-        "footer";    
+        "footer";
 }
 
 .padre {
@@ -48,4 +48,3 @@ body {
     justify-items: center;
     margin-bottom: 50px;
 }
-

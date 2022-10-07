@@ -270,7 +270,9 @@ footer {
 .bienvenido {
   margin: 2% 0;
 }
-.bienvenido h1, .bienvenido h2, .bienvenido h3 {
+.bienvenido h1,
+.bienvenido h2,
+.bienvenido h3 {
   text-align: center;
   color: #01717e;
 }
@@ -351,7 +353,8 @@ footer {
   justify-content: center;
   margin: 2% 15%;
 }
-.vuelos_box .table tbody tr th, .vuelos_box .table tbody tr td {
+.vuelos_box .table tbody tr th,
+.vuelos_box .table tbody tr td {
   font-size: 14px;
 }
 
