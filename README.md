@@ -12,3 +12,7 @@ Estan incluidos los siguientes temas vistos en Clase:
 - Media querys
 - Uso de Git y GitHub
 - Mapeo del Sitio
+
+
+
+# Alejandro Daniel Di Stefano
