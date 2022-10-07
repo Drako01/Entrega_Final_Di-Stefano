@@ -90,6 +90,11 @@
   font-weight: bolder;
 }
 
+.textos_finales h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 header {
   grid-area: header;
 }
@@ -336,6 +341,9 @@ footer {
 .bienvenido__box {
   padding: 1% 5%;
 }
+.bienvenido__box p {
+  padding: 0%;
+}
 
 .vuelos_box {
   display: flex;
@@ -398,6 +406,11 @@ footer {
   border-radius: 20px;
   margin: 2% 0 10%;
 }
+.row_entradas_disney .wrapper_disney_entradas_row .descuento {
+  font-size: 18px;
+  font-weight: 600;
+  color: #004848;
+}
 .row_entradas_disney .wrapper_disney_entradas_row button {
   width: 260px;
 }
@@ -406,6 +419,9 @@ footer {
 }
 .row_entradas_disney .wrapper_disney_entradas_row .box_1 {
   margin: 5px;
+}
+.row_entradas_disney .wrapper_disney_entradas_row .box_1 h4 {
+  font-size: 15px;
 }
 .row_entradas_disney .wrapper_disney_entradas_row .box_1 span {
   font-size: 60%;

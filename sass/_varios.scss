@@ -47,6 +47,9 @@
 
 .bienvenido__box{
     padding: 1% 5%;
+    p{
+        padding: 0%;
+    }
 }
 
 .vuelos_box{
@@ -123,6 +126,12 @@
         border-radius: 20px;
         margin: 2% 0 10%;
 
+        .descuento{
+            font-size: 18px;
+            font-weight: 600;
+            color: #004848;
+        }
+
         button {
             width: 260px;
         }
@@ -133,6 +142,9 @@
 
         .box_1 {
             margin: 5px;
+            h4{
+                font-size: 15px;
+            }
 
             span {
                 font-size: 60%;
