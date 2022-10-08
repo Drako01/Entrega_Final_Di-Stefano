@@ -124,6 +124,7 @@ footer {
 }
 
 body {
+  width: auto;
   display: grid;
   gap: 20px;
   grid-template-areas: "header" "nav" "main" "footer";
