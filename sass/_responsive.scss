@@ -142,6 +142,11 @@
 
 @media (max-width:576px) {
 
+    body{
+        display: block;
+        width: 100%;
+    }
+
     .titulo-final p {
         font-size: 12px;
     }

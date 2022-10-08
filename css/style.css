@@ -124,7 +124,6 @@ footer {
 }
 
 body {
-  width: 100%;
   display: grid;
   gap: 20px;
   grid-template-areas: "header" "nav" "main" "footer";
@@ -605,6 +604,10 @@ footer {
   }
 }
 @media (max-width: 576px) {
+  body {
+    display: block;
+    width: 100%;
+  }
   .titulo-final p {
     font-size: 12px;
   }
