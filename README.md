@@ -1,4 +1,4 @@
-# 3er Preentrega del Proyecto Final
+# Entrega Final del Proyecto
 
 Estan incluidos los siguientes temas vistos en Clase:
 
