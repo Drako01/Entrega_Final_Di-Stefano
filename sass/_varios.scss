@@ -45,7 +45,7 @@
 }
 
 .bienvenido__box {
-    padding: 1% 5%;
+    padding: 1% 10%;
 
     p {
         padding: 0%;
@@ -108,8 +108,8 @@
 }
 
 .center {
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
     align-items: center;
     padding: 30px;
 }
@@ -117,7 +117,7 @@
 .row_entradas_disney {
     display: flex;
     justify-content: space-around;
-    margin: 0 20%;
+    margin: 0 3%;
     flex-wrap: wrap;
 
 
@@ -129,7 +129,7 @@
         align-items: center;
         border: 1px solid #004848;
         border-radius: 20px;
-        margin: 2% 0 10%;
+        margin: 3% 1% ;
 
         .descuento {
             font-size: 18px;

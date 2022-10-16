@@ -16,7 +16,7 @@ main {
     .padre {
         img {
             @extend .imagenes__interactivas;
-            @include foto(520px, 360px);
+            @include foto(500px, 320px);
         }
 
         img:hover {
@@ -30,7 +30,7 @@ footer {
     grid-area: footer;
 }
 
-body {
+.body {
     width: auto;
     display: grid;
     gap: 20px;
@@ -47,5 +47,5 @@ body {
     grid-template-rows: 1fr 1fr;
     gap: 10px 10px;
     justify-items: center;
-    margin-bottom: 50px;
+    margin: 50px 0;
 }

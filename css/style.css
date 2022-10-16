@@ -111,8 +111,8 @@ main {
   grid-area: galeria;
 }
 .galeria-grid .padre img {
-  width: 520px;
-  height: 360px;
+  width: 500px;
+  height: 320px;
 }
 .galeria-grid .padre img:hover {
   filter: grayscale(1);
@@ -123,7 +123,7 @@ footer {
   grid-area: footer;
 }
 
-body {
+.body {
   width: auto;
   display: grid;
   gap: 20px;
@@ -136,7 +136,7 @@ body {
   grid-template-rows: 1fr 1fr;
   gap: 10px 10px;
   justify-items: center;
-  margin-bottom: 50px;
+  margin: 50px 0;
 }
 
 header {
@@ -224,6 +224,7 @@ footer {
   background-color: #01717e;
   border-radius: 30px 30px 0 0;
   box-shadow: 3px 0 8px #004848;
+  position: sticky;
   margin-bottom: 0;
 }
 
@@ -282,7 +283,7 @@ footer {
 }
 .bienvenido p {
   text-align: left;
-  padding: 3%;
+  padding: 0 3%;
 }
 
 .formulario {
@@ -292,7 +293,7 @@ footer {
   padding: 20px;
 }
 .formulario .text-label label {
-  font-size: 12px;
+  font-size: 0.5rem;
 }
 
 .index_page {
@@ -342,7 +343,7 @@ footer {
 }
 
 .bienvenido__box {
-  padding: 1% 5%;
+  padding: 1% 10%;
 }
 .bienvenido__box p {
   padding: 0%;
@@ -388,8 +389,6 @@ footer {
 }
 
 .center {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   padding: 30px;
 }
@@ -397,7 +396,7 @@ footer {
 .row_entradas_disney {
   display: flex;
   justify-content: space-around;
-  margin: 0 20%;
+  margin: 0 3%;
   flex-wrap: wrap;
 }
 .row_entradas_disney .wrapper_disney_entradas_row {
@@ -408,7 +407,7 @@ footer {
   align-items: center;
   border: 1px solid #004848;
   border-radius: 20px;
-  margin: 2% 0 10%;
+  margin: 3% 1%;
 }
 .row_entradas_disney .wrapper_disney_entradas_row .descuento {
   font-size: 18px;
@@ -513,6 +512,11 @@ footer {
 }
 
 @media (max-width: 1080px) {
+  body {
+    display: block;
+    width: 100%;
+    max-width: 1080px;
+  }
   .galeria-grid {
     grid-area: galeria;
   }
@@ -536,6 +540,16 @@ footer {
   }
   .slider {
     max-width: 800px;
+  }
+  .nav__img {
+    width: 200px;
+  }
+  .bienvenido h1 {
+    font-size: 25px;
+    margin: 10px;
+  }
+  .bienvenido h2 {
+    font-size: 20px;
   }
 }
 @media (min-width: 768px) {
@@ -597,18 +611,11 @@ footer {
     color: #f6c487;
     text-shadow: 1px 1px 1px #000;
   }
-  .wrapper .textos_finales {
-    font-size: 60%;
-  }
   .wrapper .textos_finales h5 {
     font-size: 15px;
   }
 }
 @media (max-width: 576px) {
-  body {
-    display: block;
-    width: 100%;
-  }
   .titulo-final p {
     font-size: 12px;
   }
@@ -660,6 +667,10 @@ footer {
   }
   .slide img {
     height: 200px;
+  }
+  .wrapper {
+    display: flex;
+    margin: 0;
   }
 }
 p {

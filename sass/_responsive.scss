@@ -1,4 +1,10 @@
 @media (max-width:1080px) {
+    body {
+        display: block;
+        width: 100%;
+        max-width: 1080px;
+    }
+
     .galeria-grid {
         grid-area: galeria;
 
@@ -33,6 +39,21 @@
 
     .slider {
         max-width: 800px;
+    }
+
+    .nav__img {
+        width: 200px;
+    }
+
+    .bienvenido {
+        h1 {
+            font-size: 25px;
+            margin: 10px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
     }
 }
 
@@ -133,19 +154,12 @@
         .textos_finales {
             h5 {
                 font-size: 15px;
-            }
-
-            font-size: 60%;
+            }            
         }
     }
 }
 
 @media (max-width:576px) {
-
-    body{
-        display: block;
-        width: 100%;
-    }
 
     .titulo-final p {
         font-size: 12px;
@@ -210,6 +224,10 @@
 
     .slide img {
         height: 200px;
+    }
+    .wrapper {
+        display: flex;
+        margin: 0;
     }
 
 }
