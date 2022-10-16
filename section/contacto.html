@@ -23,11 +23,11 @@
             </figure>
             <ul class="nav__links">
 
-                <li class="nav__item"><a href="../index.html" class="nav__link">Inicio</a></li>
-                <li class="nav__item"><a href="vuelos.html" class="nav__link">Vuelos</a></li>
-                <li class="nav__item"><a href="paquetes.html" class="nav__link">Paquetes</a></li>
-                <li class="nav__item"><a href="disney.html" class="nav__link">Disney</a></li>
-                <li class="nav__item"><a href="contacto.html" class="nav__link">Contacto</a></li>
+                <li class="nav__item" title="inicio"><a href="../index.html" class="nav__link">Inicio</a></li>
+                <li class="nav__item" title="vuelos"><a href="vuelos.html" class="nav__link">Vuelos</a></li>
+                <li class="nav__item" title="paquetes"><a href="paquetes.html" class="nav__link">Paquetes</a></li>
+                <li class="nav__item" title="disney"><a href="disney.html" class="nav__link">Disney</a></li>
+                <li class="nav__item" title="contacto"><a href="contacto.html" class="nav__link">Contacto</a></li>
 
             </ul>
 
@@ -48,23 +48,23 @@
             <form class="row g-3 formulario">
                 <div class="col-md-8">
                     <label for="validationDefault01" class="form-label">Nombres</label>
-                    <input type="text" class="form-control" id="validationDefault01">
+                    <input type="text" class="form-control" id="validationDefault01" title="ingrese su nombre">
                 </div>
                 <div class="col-md-4">
                     <label for="validationDefault02" class="form-label">Apellido</label>
-                    <input type="text" class="form-control" id="validationDefault02">
+                    <input type="text" class="form-control" id="validationDefault02" title="ingrese su apellido">
                 </div>
                 <div class="col-md-6">
                     <label for="validationDefault03" class="form-label">Ciudad</label>
-                    <input type="text" class="form-control" id="validationDefault03">
+                    <input type="text" class="form-control" id="validationDefault03" title="ingrese su ciudad natal">
                 </div>
                 <div class="col-md-3">
                     <label for="validationDefault05" class="form-label">Código Postal</label>
-                    <input type="text" class="form-control" id="validationDefault05">
+                    <input type="text" class="form-control" id="validationDefault05" title="ingrese su codigo postal">
                 </div>
                 <div class="col-md-3">
                     <label for="validationDefault04" class="form-label">Provincia</label>
-                    <select class="form-select" id="validationDefault04">
+                    <select class="form-select" id="validationDefault04" title="ingrese su provincia">
                         <option selected disabled value="">Seleccione...</option>
                         <option>CABA</option>
                         <option>Buenos Aires</option>
@@ -81,14 +81,16 @@
                 </div>
                 <div class="col-12">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" checked>
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" checked
+                            title="estoy de acuerdo con los terminos y condiciones">
                         <label class="form-check-label" for="invalidCheck2">
                             Estoy de Acuerdo con los Términos y Condiciones
                         </label>
                     </div>
                 </div>
                 <div class="col-12 box_center">
-                    <button class="btn btn-success boton" type="submit">Aceptar</button>
+                    <button class="btn btn-success boton" type="submit"
+                        title="acepto y envio mi contacto">Aceptar</button>
                 </div>
             </form>
         </section>
