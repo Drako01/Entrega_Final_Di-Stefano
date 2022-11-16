@@ -20,6 +20,10 @@ Estan incluidos los siguientes temas vistos en Clase:
 
 URL del Sitio: https://drako01.github.io/Entrega_Final_Di-Stefano/
 
+<div align="center">
+<img src="Desarrollo Web - Coder.png">
+
+</div>
 
 # Alejandro Daniel Di Stefano
 Visita mi Sitio: https://armotusitio.com
